@@ -1,0 +1,87 @@
+
+
+body{
+    background-color: #1C1C1C;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+
+.main{
+    background-color: #ECFDF5;   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content to the left within the div */
+    align-items: center; /* Align items to the top within the div */
+    font-family: Arial, sans-serif;
+    padding: 40px; /* Add padding to give some space inside the div */
+    width: 45%; /* Set a width to cover slightly less of the viewport width */
+    height: 80%; /* Set a height to cover slightly less of the viewport height */
+    text-align: left; /* Ensure text is aligned to the left */
+    box-sizing: border-box; /* Ensure padding is included in the width and height */
+    overflow: hidden;
+}
+.head{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1{
+    color: #1C1C1C;
+}
+
+p {
+    color: #6B7280; /* Set the color of the additional line */
+    margin-top: 10px; /* Add some space between the h2 and p elements */
+    margin-bottom: 40px;
+}
+button{
+    background-color: #10B981;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.passwordSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* Ensure space between the password containers */
+    align-items: center;
+    margin-top: 60px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    gap: 20px; /* Add gap between the password containers */
+    
+    
+}
+
+.password-container {
+    background-color: #394B59;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    min-width: 0;
+    overflow: hidden; /* Prevent text overflow */
+}
+
+.passwordSec p {
+    margin: 0;
+    text-align: center;
+    word-break: break-all;
+    overflow: hidden; /* Ensure text does not overflow */
+    text-overflow: ellipsis; /* Show ellipsis for overflowed text */
+    color: #32CD32;
+}
